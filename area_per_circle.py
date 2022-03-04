@@ -6,6 +6,7 @@
 
 # Calculates the area and perimeter of a square
 
+
 import math
 
 PI = math.pi
@@ -16,7 +17,7 @@ def main():
     perimeter = PI * r * 2
     area = PI * r * r
     print("Area of a circle = %.2f" % area)
-    print("Perimeter of a circle = %.2f" % perimeter)
+    print("Perimeter of a circle = %.2f" % perimeter, end = "\r")
 
 
 if __name__ == "__main__":
